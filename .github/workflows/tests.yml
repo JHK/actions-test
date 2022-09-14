@@ -9,4 +9,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+    - run: sleep 100
     - run: echo "tests"
